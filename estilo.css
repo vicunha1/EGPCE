@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabeçalho {
+    background-color: #1e764d;
+    text-align: center;
+    height: 8rem;
+}
+
+.cabeçalho img{
+    width: 20%;
+    margin-top: 2rem;
+}
+
+.sobre {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.sobre > p {
+    margin: 0 0 3rem 9rem;
+    width: 83%;
+    font-size: 16px;
+}
+
+.sobre > h2,
+.valores > h2,
+.objetivos > h2 {
+    color: rgb(102, 102, 102);
+    margin: 3rem 0 1.5rem 0;
+    text-align: center;
+}
+
+.valores .valores-1 {
+    margin: 3rem 0 0 25rem;
+}   
+
+.valores .valores-2 {
+    margin: -3.5rem 0 0 72rem;
+}   
+
+.objetivos .cards {
+    display: flex;
+    gap: 2rem;
+    margin-left: 20rem;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 23%;
+    height: 10rem;
+    transition: transform 0.4s ease;
+}
+
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  transform: scale(1.1) rotate(-1deg);
+}
+
+
+#card-titulo {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#card-texto {
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card-1 {
+    background-color: #1e764d;
+}
+
+.card-2 {
+    background-color: #fac619;
+}
+
+.card-3 {
+    background-color: #5e5f63;
+}
+
+footer {
+    background-color: #1e764d;
+    position: relative;
+    top: 6.4rem;
+    height: 5rem;
+}
+
+footer > p {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+
+
